@@ -11,13 +11,13 @@ if($method == "POST"){
 	$text = $json => result => parameters => text;
 	
 	switch ($text){
-	case 'hi'
+	case 'hi':
 		$speech = "Hi, Nice to meet you";
 	break;
-	case 'bye'
+	case 'bye':
 		$speech = "Bye, good night";
 	break;	
-	case 'anything'
+	case 'anything':
 		$speech = "Sorry. I didnt get that. Please ask me something else";
 	break;
 	default:
