@@ -32,7 +32,7 @@ if($method == "POST"){
 }
 else 
 {
-	echo "Method not allowed"
+	echo "Method not allowed";
 }
 
 
